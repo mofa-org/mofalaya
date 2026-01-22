@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VibeMe for Mofalaya</title>
+  <link rel="stylesheet" href="/mofalaya/vibeme/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-grid"></div>
+
+  <header class="nav">
+    <div class="logo">VibeMe<span>Mofalaya</span></div>
+  </header>
+
+  <main>
+    <section class="tools" id="tools">
+      <div class="section-title">
+        <p class="eyebrow">Mofalaya vibing toolkit</p>
+        <h1>Spec-kit Skills</h1>
+        <p>Click a skill to open its markdown description in the embedded editor.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skills-list">
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/memory/constitution.md" data-md-path="/mofalaya/.specify/memory/constitution.md" data-title="Constitution Template">1. Constitution Template</a>
+            <p>Establish project principles and governance.</p>
+          </div>
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/templates/spec-template.md" data-md-path="/mofalaya/.specify/templates/spec-template.md" data-title="Spec Template">2. Spec Template</a>
+            <p>Primary specification template for new features.</p>
+          </div>
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/templates/plan-template.md" data-md-path="/mofalaya/.specify/templates/plan-template.md" data-title="Plan Template">3. Plan Template</a>
+            <p>Planning structure used by spec-kit workflows.</p>
+          </div>
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/templates/tasks-template.md" data-md-path="/mofalaya/.specify/templates/tasks-template.md" data-title="Tasks Template">4. Tasks Template</a>
+            <p>Task breakdown template for execution-ready work.</p>
+          </div>
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/templates/checklist-template.md" data-md-path="/mofalaya/.specify/templates/checklist-template.md" data-title="Checklist Template">5. Checklist Template</a>
+            <p>Quality checklist for spec-kit delivery.</p>
+          </div>
+          <div class="skill-item">
+            <a class="skill-link" href="/mofalaya/.specify/templates/agent-file-template.md" data-md-path="/mofalaya/.specify/templates/agent-file-template.md" data-title="Agent File Template">6. Agent File Template</a>
+            <p>Agent file layout used across spec-kit flows.</p>
+          </div>
+        </div>
+        <div class="editor panel">
+          <div class="editor-header">
+            <div>
+              <h3 id="editor-title">Spec Template</h3>
+              <p id="editor-path"></p>
+            </div>
+            <div class="tag">Embedded Editor</div>
+          </div>
+          <div class="editor-body">
+            <textarea id="md-editor" aria-label="Markdown editor"></textarea>
+            <div class="md-preview" id="md-preview" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <h4>Mofalaya / VibeMe</h4>
+      <p>Human-friendly Mofalaya onboarding powered by vibing culture.</p>
+    </div>
+    <div>
+      <p>Resources</p>
+      <ul>
+        <li>Mofalaya Repo: <code>/Users/zonghuanwu/github/mofalaya</code></li>
+        <li>Spec-kit: <code>/Users/zonghuanwu/github/mofalaya/.specify</code></li>
+        <li>Skills: <code>/Users/zonghuanwu/github/mofalaya/.claude/commands</code></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/mofalaya/vibeme/app.js"></script>
+</body>
+</html>
